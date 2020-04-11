@@ -1,6 +1,13 @@
 class School
   
-  def 
+  def name = (whats_the_name)
+    @name = whats_the_name
+  end
+  
+  def name
+    @name
+  end
+  
   
   def initialize()
     @name = name
