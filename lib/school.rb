@@ -1,17 +1,11 @@
 class School
   
-  def name = (whats_the_name)
-    @name = whats_the_name
-  end
+  attr_reader :name
   
-  def name
-    @name
-  end
-  
-  
-  def initialize()
+  def initialize(name)
     @name = name
     @roaster = {}
+  end
     
  
 end
