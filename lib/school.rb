@@ -1,5 +1,5 @@
 class School
-  @school.roster
+  school.roster
   
 end
 
