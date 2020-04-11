@@ -1,4 +1,11 @@
 class School
+  
+  def 
+  
+  def initialize()
+    @name = name
+    @roaster = {}
+    
  
 end
 
