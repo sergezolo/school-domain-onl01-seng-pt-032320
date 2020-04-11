@@ -17,7 +17,11 @@ class School
   end
   
   def sort()
-    roster[grade][student.sort]
+    hash = {}
+    roster.each do |grade, student|
+      hash[grade] = student.sort
+    end
+    hash
   end
   
  
